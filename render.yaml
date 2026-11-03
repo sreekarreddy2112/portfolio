@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sreekar-reddy-portfolio
+    env: static
+    buildCommand: ""
+    staticPublishPath: ./
