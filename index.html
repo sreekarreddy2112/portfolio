@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sreekar Reddy Pannala - AI Engineer, Generative AI Engineer, ML Engineer, and Python Developer based in Hyderabad, India.">
+  <meta name="keywords" content="Sreekar Reddy Pannala, AI Engineer, Generative AI, ML Engineer, Python Developer, Portfolio, Hyderabad">
+  <meta name="author" content="Sreekar Reddy Pannala">
+  <title>Sreekar Reddy Pannala | AI Engineer & Python Developer</title>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Sticky Navigation Bar -->
+  <header id="header" class="site-header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="Sreekar Reddy Homepage">
+        <span class="brand-code">&lt;</span><span class="brand-name">Sreekar</span><span class="brand-accent">.Reddy</span><span class="brand-code">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu (Ordered as required) -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Header Actions: Theme Toggle, Resume & Mobile Menu Button -->
+      <div class="nav-actions">
+        <!-- View Resume Quick Button -->
+        <a href="Sreekar_Reddy_Pannala_Resume_Python_Developer.pdf" target="_blank" rel="noopener noreferrer" id="nav-resume-btn" class="btn btn-outline nav-resume-btn" title="View Resume">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn theme-btn" type="button" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="menu-toggle" class="icon-btn mobile-menu-btn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Page Content -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        
+        <!-- Status Badge -->
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Open to Entry-Level Roles & AI Projects</span>
+        </div>
+
+        <!-- Name Heading -->
+        <h1 class="hero-name">Sreekar Reddy Pannala</h1>
+
+        <!-- Dynamic Typing Tagline -->
+        <div class="hero-tagline-wrapper" aria-label="Role Tagline">
+          <span class="tagline-prefix">&gt; </span>
+          <span id="typewriter-text" class="hero-tagline">AI Engineer | Gen AI | ML Engineer</span>
+          <span class="typewriter-cursor">|</span>
+        </div>
+
+        <!-- Short Sub-description -->
+        <p class="hero-description">
+          Passionate developer based in <strong>Hyderabad, India</strong> specializing in building intelligent Generative AI systems, robust Python backends, and full-stack data applications.
+        </p>
+
+        <!-- Hero Action Buttons (View Resume, Download Resume, GitHub, LinkedIn) -->
+        <div class="hero-buttons">
+          <!-- View Resume Button -->
+          <a href="Sreekar_Reddy_Pannala_Resume_Python_Developer.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-view-resume" title="View Resume">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            <span>View Resume</span>
+          </a>
+
+          <!-- Download Resume Button (links to PDF in same folder) -->
+          <a href="Sreekar_Reddy_Pannala_Resume_Python_Developer.pdf" class="btn btn-outline" download="Sreekar_Reddy_Pannala_Resume_Python_Developer.pdf" id="btn-download-resume" title="Download Resume PDF">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download Resume</span>
+          </a>
+
+          <!-- GitHub Button -->
+          <a href="https://github.com/sreekarreddy2112" class="btn btn-outline" target="_blank" rel="noopener noreferrer" id="btn-github">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <!-- LinkedIn Button -->
+          <a href="https://www.linkedin.com/in/sreekar-reddy-7b5a5a256/" class="btn btn-outline" target="_blank" rel="noopener noreferrer" id="btn-linkedin">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <!-- Quick Info Highlights Row -->
+        <div class="hero-quick-info">
+          <div class="info-pill">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Hyderabad, Telangana, India</span>
+          </div>
+          <div class="info-pill">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            <span>Python &amp; AI Intern Certificate (Aug 2025)</span>
+          </div>
+          <div class="info-pill">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            <span>4 Production-Grade Projects</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Exact Text Required by MD File -->
+          <div class="about-card primary-about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="about-heading">Professional Profile</h3>
+            <blockquote class="about-exact-text">
+              "I've built Python projects including an AI virtual teacher, an AI-powered voice sales system, and a banking application using MySQL. I also developed MarketMind India, a stock-market education platform with an interactive web frontend and FastAPI backend. I have experience with Python, REST APIs, SQL, and AI integrations, and I'm looking for an entry-level Python Developer role where I can contribute to real-world projects and continue growing."
+            </blockquote>
+          </div>
+
+          <!-- Highlights & Target Roles Side Cards -->
+          <div class="about-details-column">
+            
+            <!-- Target Roles Card -->
+            <div class="about-card target-roles-card">
+              <h4 class="card-title">Target Roles</h4>
+              <ul class="roles-tag-list">
+                <li class="role-tag">AI Engineer</li>
+                <li class="role-tag">Generative AI Engineer</li>
+                <li class="role-tag">ML Engineer</li>
+                <li class="role-tag">Python Developer (Entry-Level)</li>
+              </ul>
+            </div>
+
+            <!-- Key Strengths Grid -->
+            <div class="about-stats-grid">
+              <div class="stat-box">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">Full Python &amp; AI Projects</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">1</span>
+                <span class="stat-label">Bootcamp Internship</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Commitment to Growth</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">HYD</span>
+                <span class="stat-label">Telangana, India</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. EXPERIENCE SECTION -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Career Journey</span>
+          <h2 class="section-title">Work Experience</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Timeline Container -->
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item: Python Bootcamp Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Python Bootcamp Intern</h3>
+                  <h4 class="timeline-company">Pantech Prolabs India Pvt. Ltd.</h4>
+                </div>
+                <div class="timeline-badge-wrap">
+                  <span class="timeline-date-badge">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    Certificate Issued: 14 August 2025
+                  </span>
+                </div>
+              </div>
+
+              <!-- Bullets required exactly by portfolio requirement.md -->
+              <ul class="timeline-bullets">
+                <li>
+                  <span class="bullet-icon">✔</span>
+                  <span>Completed the Python Bootcamp internship and received an internship certificate.</span>
+                </li>
+                <li>
+                  <span class="bullet-icon">✔</span>
+                  <span>Built a banking project using core Python and object-oriented programming (OOP)</span>
+                </li>
+              </ul>
+
+              <!-- Technologies Learnt & Applied -->
+              <div class="timeline-skills">
+                <span class="skill-pill">Python Core</span>
+                <span class="skill-pill">OOP</span>
+                <span class="skill-pill">MySQL Database</span>
+                <span class="skill-pill">Software Architecture</span>
+                <span class="skill-pill">Data Validation</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Technical Proficiency</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Dynamic Controls: Category Filter & Search -->
+        <div class="skills-controls">
+          <div class="filter-tabs" id="skills-filter-tabs" role="tablist" aria-label="Skills Category Filter">
+            <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">All Skills</button>
+            <button class="filter-tab" data-category="ai" role="tab" aria-selected="false">AI &amp; Generative AI</button>
+            <button class="filter-tab" data-category="backend" role="tab" aria-selected="false">Python &amp; Backend</button>
+            <button class="filter-tab" data-category="frontend" role="tab" aria-selected="false">Web &amp; Full-Stack</button>
+            <button class="filter-tab" data-category="tools" role="tab" aria-selected="false">Databases &amp; Tools</button>
+          </div>
+
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="skills-search-input" placeholder="Search skills (e.g., Python, AI, SQL)..." aria-label="Search skills">
+          </div>
+        </div>
+
+        <!-- Dynamic Skills Grid (Rendered by JavaScript) -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Skills items dynamically populated by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Real-World Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Dynamic Filter Tabs & Search for Projects -->
+        <div class="projects-controls">
+          <div class="filter-tabs" id="projects-filter-tabs" role="tablist" aria-label="Projects Filter">
+            <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">All Projects</button>
+            <button class="filter-tab" data-category="ai" role="tab" aria-selected="false">AI &amp; GenAI</button>
+            <button class="filter-tab" data-category="fullstack" role="tab" aria-selected="false">Full-Stack / Web</button>
+            <button class="filter-tab" data-category="python" role="tab" aria-selected="false">Python Core</button>
+          </div>
+
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="projects-search-input" placeholder="Search projects by name or technology..." aria-label="Search projects">
+          </div>
+        </div>
+
+        <!-- Dynamic Projects Grid (Rendered by JavaScript) -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects dynamically populated by script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Interactive Project Details Modal -->
+    <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
+      <div class="modal-dialog card">
+        <button id="modal-close-btn" class="modal-close" aria-label="Close project modal">&times;</button>
+        <div id="modal-body" class="modal-body">
+          <!-- Populated dynamically by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. EDUCATION SECTION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-line"></div>
+
+          <!-- Education Card -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Bachelor of Technology (B.Tech), Computer Science and Engineering (AI &amp; ML)</h3>
+                  <h4 class="timeline-company">Malla Reddy Institute of Technology and Science, Hyderabad</h4>
+                </div>
+                <div class="timeline-badge-wrap">
+                  <span class="timeline-date-badge">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                    2022 - 2026 | CGPA: 8.0
+                  </span>
+                </div>
+              </div>
+
+              <p class="education-description">
+                Focused on core computational foundations including Object-Oriented Programming (OOP), Data Structures &amp; Algorithms (DSA), Relational Database Management Systems (RDBMS), Artificial Intelligence concepts, and Web Architectures.
+              </p>
+
+              <div class="education-highlights">
+                <span class="highlight-tag">Python &amp; OOP</span>
+                <span class="highlight-tag">Database Management (SQL)</span>
+                <span class="highlight-tag">Data Structures &amp; Algorithms</span>
+                <span class="highlight-tag">AI &amp; Machine Learning Foundations</span>
+                <span class="highlight-tag">Computer Networks &amp; Web Systems</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards Column -->
+          <div class="contact-info-column">
+            
+            <p class="contact-lead-text">
+              I am actively looking for an <strong>entry-level Python Developer, AI Engineer, Generative AI Engineer, or ML Engineer</strong> position. Let's connect and discuss how I can add value to your team!
+            </p>
+
+            <!-- Email Card with 1-click Copy -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:sreekarreddy8493@gmail.com" class="contact-value link-accent">sreekarreddy8493@gmail.com</a>
+              </div>
+              <button class="copy-btn icon-btn" data-copy="sreekarreddy8493@gmail.com" title="Copy Email" aria-label="Copy email address">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Phone Card with 1-click Copy -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+916302681914" class="contact-value link-accent">+91 6302681914</a>
+              </div>
+              <button class="copy-btn icon-btn" data-copy="+916302681914" title="Copy Phone Number" aria-label="Copy phone number">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+
+            <!-- Social Links Grid -->
+            <div class="contact-socials-row">
+              <a href="https://github.com/sreekarreddy2112" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>GitHub Profile</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/sreekar-reddy-7b5a5a256/" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn Profile</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="brand-code">&lt;</span><span class="brand-name">Sreekar</span><span class="brand-accent">.Reddy</span><span class="brand-code">/&gt;</span>
+        <p class="footer-tagline">AI Engineer &bull; Generative AI &bull; Python Developer</p>
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; <span id="current-year">2026</span> Sreekar Reddy Pannala. Built with clean HTML, CSS &amp; JavaScript.</p>
+        <button id="scroll-to-top" class="scroll-top-btn" title="Back to Top" aria-label="Back to Top">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+          <span>Top</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
+

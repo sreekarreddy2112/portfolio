@@ -1,0 +1,13 @@
+{
+  "name": "sreekar-reddy-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for Sreekar Reddy Pannala",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["portfolio", "ai-engineer", "python-developer"],
+  "author": "Sreekar Reddy Pannala",
+  "license": "MIT"
+}
+
