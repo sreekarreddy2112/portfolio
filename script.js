@@ -173,6 +173,13 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Strong fundamentals in Python, OOP, data structures, backend engineering, and algorithms."
     },
     {
+      name: "Java Programming",
+      category: "backend",
+      level: 85,
+      proficiency: "Proficient",
+      description: "Core Java, Object-Oriented Programming (OOP), collections framework, multi-threading, and robust software design."
+    },
+    {
       name: "Google Gemini API & GenAI",
       category: "ai",
       level: 90,
